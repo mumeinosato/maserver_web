@@ -1,0 +1,106 @@
+.btn-flat-stripe {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-left: solid 4px #668ad8;
+    border-right: solid 4px #668ad8;
+    color: #668ad8;
+    text-shadow: 0 0 5px white;
+    padding: 0.5em 1em;
+    background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    transition: .4s;
+    text-align:right;
+  }
+  
+  .btn-flat-stripe:hover {
+    background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 5px,#e9f4ff 5px, #e9f4ff 9px);
+  }
+  
+p.title2 {text-align:center; }
+p.Copyright {text-align:center; }
+a.coding {text-align:center; 
+  color: black;
+}
+p.title2 {font-size: x-large; }
+p.Explanation {text-align:center; }
+p.join1 {
+  text-align: center;
+  font-size: xx-large;
+}
+p.join2 {
+  text-align: center;
+  font-size: medium;
+}
+a.sample2 {
+  color:black;
+  text-decoration: none;
+}
+p.join3 {
+  text-align: center;
+  font-size: x-large;
+}
+div.join4 {
+  text-align: center;
+}
+p.news {
+  text-align: center;
+  font-size: xx-large;
+}
+p.Operation1 {
+  text-align: left;
+  font-size: x-large;
+}
+.infinity-slide{
+    display: flex; /* 二つのスライドを横に並べる */
+    width: 50vw;
+    margin: 0 25vw;
+    background: gray;
+    overflow: hidden;
+  }
+  
+  #slide {
+    animation: infinity-loop 10s infinite linear 1s both; /* 無限ループアニメーションの設定 */
+    display: flex; /* スライドの要素を横に並べる */
+    width: 400vw;
+    height: 400px;
+    position: relative;
+  }
+  
+  #slide img{
+    height: 100%;
+    width: auto；
+  }
+  
+  /* 無限ループアニメーション */
+  @keyframes infinity-loop {
+    from {
+      transform: translateX(0vw);
+    }
+    to {
+      transform: translateX(-368.75vw);
+    }
+  }
+
+div.one { 
+  text-align: center;
+}
+div.two { 
+  text-align: center;
+}
+div.three { 
+  text-align: center;
+}
+p.Explanation1 {
+  font-size: xx-large;
+  text-align: center;
+  letter-spacing: 10px;
+}
+p.Explanation11 {
+  font-size: large;
+  text-align: center;
+}
+div.gif {
+  text-align: center;
+}
